@@ -1,0 +1,1 @@
+UVViewer is a simple tool to inspect mesh UV's in Unity. Enable it in "Tools" -> "B83" -> "UVViewer".

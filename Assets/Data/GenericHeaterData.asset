@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e771651cb26775b47b3e86be584253fc, type: 3}
+  m_Name: GenericHeaterData
+  m_EditorClassIdentifier: 
+  deviceName: Heater
+  Manufactor: FrostBit Software Lab
+  minPower: 0
+  maxPower: 2000
+  deadTime: 10
+  powerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00017303615
+      value: 0.0000886881
+      inSlope: 2.8723004
+      outSlope: 2.8723004
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.015048617
+    - serializedVersion: 3
+      time: 0.9992676
+      value: 1
+      inSlope: -0.03243211
+      outSlope: -0.03243211
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11589379
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  power: 0

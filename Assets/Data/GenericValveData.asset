@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfc4acd0cdebdc04493139c6d276d9f2, type: 3}
+  m_Name: GenericValveData
+  m_EditorClassIdentifier: 
+  deviceName: Valve
+  DeviceModel: Valve 001
+  Manufactor: FrostBit Software LAb
+  diameter: 125
+  lenght: 0
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -0.6073059
+      inSlope: 0.977169
+      outSlope: 0.977169
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 6.25
+      value: 5.5
+      inSlope: 0.8885845
+      outSlope: 0.8885845
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 12.5
+      value: 10.5
+      inSlope: 0.8
+      outSlope: 0.8
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 18.75
+      value: 15.5
+      inSlope: 0.88
+      outSlope: 0.88
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 25
+      value: 21.5
+      inSlope: 0.91999996
+      outSlope: 0.91999996
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 31.25
+      value: 27
+      inSlope: 1.1600001
+      outSlope: 1.1600001
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 37.5
+      value: 36
+      inSlope: 2.24
+      outSlope: 2.24
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 43.75
+      value: 55
+      inSlope: 3.76
+      outSlope: 3.76
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 50
+      value: 83
+      inSlope: 4.548104
+      outSlope: 4.548104
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 56.40039
+      value: 112.54553
+      inSlope: 4.5611897
+      outSlope: 4.5611897
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 62.65039
+      value: 140.7091
+      inSlope: 4.408215
+      outSlope: 4.408215
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 68.75
+      value: 167
+      inSlope: 4.070026
+      outSlope: 4.070026
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.61207765
+      outWeight: 0.547627
+    - serializedVersion: 3
+      time: 75.225586
+      value: 195.2547
+      inSlope: 4.3127203
+      outSlope: 4.3127203
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 81.099625
+      value: 220.29088
+      inSlope: 4.3738556
+      outSlope: 4.3738556
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 87.5
+      value: 249
+      inSlope: 4.4027686
+      outSlope: 4.4027686
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 93.75
+      value: 276
+      inSlope: 4.08
+      outSlope: 4.08
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 100
+      value: 300
+      inSlope: 3.84
+      outSlope: 3.84
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  minValvePosition: 0
+  maxValvePosition: 100

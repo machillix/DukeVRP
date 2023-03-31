@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbee7d082da95344a6dac78785ef390, type: 3}
+  m_Name: GenericPumpData 2
+  m_EditorClassIdentifier: 
+  DeviceName: Generic Pump
+  DeviceModel: Pump 001
+  Manufactor: FrostBit Software Lab
+  volumeFlow: 80
+  outDiameter: 100
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.011519626
+      value: 79.24717
+      inSlope: -3.652506
+      outSlope: -2.1321118
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.08963284
+    - serializedVersion: 3
+      time: 9.620856
+      value: 0
+      inSlope: -9.96704
+      outSlope: -9.96704
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.032397345
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  curve1:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0000060796738
+      value: 19.921968
+      inSlope: -0.021490226
+      outSlope: -0.021490226
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.049043085
+    - serializedVersion: 3
+      time: 40.145523
+      value: 0.031180426
+      inSlope: -0.3290064
+      outSlope: -0.3290064
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08606862
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  curve2:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20.451416
+      inSlope: -0.061794795
+      outSlope: -0.061794795
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.08958986
+    - serializedVersion: 3
+      time: 40.02472
+      value: 0.040527344
+      inSlope: -1.5586791
+      outSlope: -1.5586791
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.05936597
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  power: 0
