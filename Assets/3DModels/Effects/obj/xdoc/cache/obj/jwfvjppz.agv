@@ -1,0 +1,2864 @@
+id: cs.temp.dll
+language: CSharp
+name:
+  Default: cs.temp.dll
+qualifiedName:
+  Default: cs.temp.dll
+type: Assembly
+modifiers: {}
+items:
+- id: Global
+  language: CSharp
+  name:
+    CSharp: Global
+    VB: ''
+  nameWithType:
+    CSharp: Global
+    VB: ''
+  qualifiedName:
+    CSharp: Global
+    VB: ''
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: Global.LightFlickerEffect
+    commentId: T:Global.LightFlickerEffect
+    language: CSharp
+    name:
+      CSharp: LightFlickerEffect
+      VB: LightFlickerEffect
+    nameWithType:
+      CSharp: LightFlickerEffect
+      VB: LightFlickerEffect
+    qualifiedName:
+      CSharp: LightFlickerEffect
+      VB: LightFlickerEffect
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: LightFlickerEffect
+      path: ''
+      startLine: 10
+    summary: "\nComponent which will flicker a linked light while active by changing its\nintensity between the min and max values given. The flickering can be\nsharp or smoothed depending on the value of the smoothing parameter.\n\nJust activate / deactivate this component as usual to pause / resume flicker\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class LightFlickerEffect : MonoBehaviour'
+        VB: >-
+          Public Class LightFlickerEffect
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.LightFlickerEffect.light
+      commentId: F:Global.LightFlickerEffect.light
+      language: CSharp
+      name:
+        CSharp: light
+        VB: light
+      nameWithType:
+        CSharp: LightFlickerEffect.light
+        VB: LightFlickerEffect.light
+      qualifiedName:
+        CSharp: LightFlickerEffect.light
+        VB: LightFlickerEffect.light
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: light
+        path: ''
+        startLine: 13
+      syntax:
+        content:
+          CSharp: public Light light
+          VB: Public light As Light
+        return:
+          type: Global.Light
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LightFlickerEffect.minIntensity
+      commentId: F:Global.LightFlickerEffect.minIntensity
+      language: CSharp
+      name:
+        CSharp: minIntensity
+        VB: minIntensity
+      nameWithType:
+        CSharp: LightFlickerEffect.minIntensity
+        VB: LightFlickerEffect.minIntensity
+      qualifiedName:
+        CSharp: LightFlickerEffect.minIntensity
+        VB: LightFlickerEffect.minIntensity
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: minIntensity
+        path: ''
+        startLine: 15
+      syntax:
+        content:
+          CSharp: public float minIntensity
+          VB: Public minIntensity As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LightFlickerEffect.maxIntensity
+      commentId: F:Global.LightFlickerEffect.maxIntensity
+      language: CSharp
+      name:
+        CSharp: maxIntensity
+        VB: maxIntensity
+      nameWithType:
+        CSharp: LightFlickerEffect.maxIntensity
+        VB: LightFlickerEffect.maxIntensity
+      qualifiedName:
+        CSharp: LightFlickerEffect.maxIntensity
+        VB: LightFlickerEffect.maxIntensity
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: maxIntensity
+        path: ''
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public float maxIntensity
+          VB: Public maxIntensity As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LightFlickerEffect.smoothing
+      commentId: F:Global.LightFlickerEffect.smoothing
+      language: CSharp
+      name:
+        CSharp: smoothing
+        VB: smoothing
+      nameWithType:
+        CSharp: LightFlickerEffect.smoothing
+        VB: LightFlickerEffect.smoothing
+      qualifiedName:
+        CSharp: LightFlickerEffect.smoothing
+        VB: LightFlickerEffect.smoothing
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: smoothing
+        path: ''
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public int smoothing
+          VB: Public smoothing As Integer
+        return:
+          type: System.Int32
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.LightFlickerEffect.Reset
+      commentId: M:Global.LightFlickerEffect.Reset
+      language: CSharp
+      name:
+        CSharp: Reset()
+        VB: Reset()
+      nameWithType:
+        CSharp: LightFlickerEffect.Reset()
+        VB: LightFlickerEffect.Reset()
+      qualifiedName:
+        CSharp: LightFlickerEffect.Reset()
+        VB: LightFlickerEffect.Reset()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Reset
+        path: ''
+        startLine: 33
+      summary: "\nReset the randomness and start again. You usually don&apos;t need to call\nthis, deactivating/reactivating is usually fine but if you want a strict\nrestart you can do.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void Reset()
+          VB: Public Sub Reset
+      overload: Global.LightFlickerEffect.Reset*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.DeviceEditor
+    commentId: T:Global.DeviceEditor
+    language: CSharp
+    name:
+      CSharp: DeviceEditor
+      VB: DeviceEditor
+    nameWithType:
+      CSharp: DeviceEditor
+      VB: DeviceEditor
+    qualifiedName:
+      CSharp: DeviceEditor
+      VB: DeviceEditor
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: DeviceEditor
+      path: ''
+      startLine: 75
+    syntax:
+      content:
+        CSharp: 'public class DeviceEditor : EditorWindow'
+        VB: >-
+          Public Class DeviceEditor
+
+              Inherits EditorWindow
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: Global.FlyCamera
+    commentId: T:Global.FlyCamera
+    language: CSharp
+    name:
+      CSharp: FlyCamera
+      VB: FlyCamera
+    nameWithType:
+      CSharp: FlyCamera
+      VB: FlyCamera
+    qualifiedName:
+      CSharp: FlyCamera
+      VB: FlyCamera
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: FlyCamera
+      path: ''
+      startLine: 1276
+    summary: "\nFlyCamera\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class FlyCamera : MonoBehaviour'
+        VB: >-
+          Public Class FlyCamera
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: Global.DeviceData
+    commentId: T:Global.DeviceData
+    language: CSharp
+    name:
+      CSharp: DeviceData
+      VB: DeviceData
+    nameWithType:
+      CSharp: DeviceData
+      VB: DeviceData
+    qualifiedName:
+      CSharp: DeviceData
+      VB: DeviceData
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: DeviceData
+      path: ''
+      startLine: 1618
+    summary: "\nBase class for data. Device Data\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class DeviceData
+        VB: Public Class DeviceData
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.DeviceData.Id
+      commentId: P:Global.DeviceData.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: DeviceData.Id
+        VB: DeviceData.Id
+      qualifiedName:
+        CSharp: DeviceData.Id
+        VB: DeviceData.Id
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Id
+        path: ''
+        startLine: 1632
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float Id { get; set; }
+          VB: Public Property Id As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.DeviceData.Id*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.DeviceData.TimeStamp
+      commentId: P:Global.DeviceData.TimeStamp
+      language: CSharp
+      name:
+        CSharp: TimeStamp
+        VB: TimeStamp
+      nameWithType:
+        CSharp: DeviceData.TimeStamp
+        VB: DeviceData.TimeStamp
+      qualifiedName:
+        CSharp: DeviceData.TimeStamp
+        VB: DeviceData.TimeStamp
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: TimeStamp
+        path: ''
+        startLine: 1653
+      summary: "\nTimeStamp (Set/Get)\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float TimeStamp { get; set; }
+          VB: Public Property TimeStamp As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.DeviceData.TimeStamp*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.DeviceData.#ctor
+      commentId: M:Global.DeviceData.#ctor
+      language: CSharp
+      name:
+        CSharp: DeviceData()
+        VB: DeviceData()
+      nameWithType:
+        CSharp: DeviceData.DeviceData()
+        VB: DeviceData.DeviceData()
+      qualifiedName:
+        CSharp: DeviceData.DeviceData()
+        VB: DeviceData.DeviceData()
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: .ctor
+        path: ''
+        startLine: 1682
+      summary: "\nDefault Constructor for DeviceData. Initialize Class members\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public DeviceData()
+          VB: Public Sub New
+      overload: Global.DeviceData.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.DeviceParamType
+    commentId: T:Global.DeviceParamType
+    language: CSharp
+    name:
+      CSharp: DeviceParamType
+      VB: DeviceParamType
+    nameWithType:
+      CSharp: DeviceParamType
+      VB: DeviceParamType
+    qualifiedName:
+      CSharp: DeviceParamType
+      VB: DeviceParamType
+    type: Enum
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: DeviceParamType
+      path: ''
+      startLine: 1698
+    syntax:
+      content:
+        CSharp: public enum DeviceParamType
+        VB: Public Enum DeviceParamType
+    modifiers:
+      CSharp:
+      - public
+      - enum
+      VB:
+      - Public
+      - Enum
+    items:
+    - id: Global.DeviceParamType.ENone
+      commentId: F:Global.DeviceParamType.ENone
+      language: CSharp
+      name:
+        CSharp: ENone
+        VB: ENone
+      nameWithType:
+        CSharp: DeviceParamType.ENone
+        VB: DeviceParamType.ENone
+      qualifiedName:
+        CSharp: DeviceParamType.ENone
+        VB: DeviceParamType.ENone
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: ENone
+        path: ''
+        startLine: 1699
+      syntax:
+        content:
+          CSharp: ENone = 0
+          VB: ENone = 0
+        return:
+          type: Global.DeviceParamType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+    - id: Global.DeviceParamType.EFloat
+      commentId: F:Global.DeviceParamType.EFloat
+      language: CSharp
+      name:
+        CSharp: EFloat
+        VB: EFloat
+      nameWithType:
+        CSharp: DeviceParamType.EFloat
+        VB: DeviceParamType.EFloat
+      qualifiedName:
+        CSharp: DeviceParamType.EFloat
+        VB: DeviceParamType.EFloat
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: EFloat
+        path: ''
+        startLine: 1700
+      syntax:
+        content:
+          CSharp: EFloat = 1
+          VB: EFloat = 1
+        return:
+          type: Global.DeviceParamType
+      modifiers:
+        CSharp:
+        - public
+        - const
+        VB:
+        - Public
+        - Const
+  - id: Global.DeviceParam
+    commentId: T:Global.DeviceParam
+    language: CSharp
+    name:
+      CSharp: DeviceParam
+      VB: DeviceParam
+    nameWithType:
+      CSharp: DeviceParam
+      VB: DeviceParam
+    qualifiedName:
+      CSharp: DeviceParam
+      VB: DeviceParam
+    type: Struct
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: DeviceParam
+      path: ''
+      startLine: 1702
+    syntax:
+      content:
+        CSharp: public struct DeviceParam
+        VB: Public Structure DeviceParam
+    modifiers:
+      CSharp:
+      - public
+      - struct
+      VB:
+      - Public
+      - Structure
+    items:
+    - id: Global.DeviceParam.paramType
+      commentId: F:Global.DeviceParam.paramType
+      language: CSharp
+      name:
+        CSharp: paramType
+        VB: paramType
+      nameWithType:
+        CSharp: DeviceParam.paramType
+        VB: DeviceParam.paramType
+      qualifiedName:
+        CSharp: DeviceParam.paramType
+        VB: DeviceParam.paramType
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: paramType
+        path: ''
+        startLine: 1703
+      syntax:
+        content:
+          CSharp: public DeviceParamType paramType
+          VB: Public paramType As DeviceParamType
+        return:
+          type: Global.DeviceParamType
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.DeviceParam.name
+      commentId: F:Global.DeviceParam.name
+      language: CSharp
+      name:
+        CSharp: name
+        VB: name
+      nameWithType:
+        CSharp: DeviceParam.name
+        VB: DeviceParam.name
+      qualifiedName:
+        CSharp: DeviceParam.name
+        VB: DeviceParam.name
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: name
+        path: ''
+        startLine: 1704
+      syntax:
+        content:
+          CSharp: public string name
+          VB: Public name As String
+        return:
+          type: System.String
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.DeviceParam.min
+      commentId: F:Global.DeviceParam.min
+      language: CSharp
+      name:
+        CSharp: min
+        VB: min
+      nameWithType:
+        CSharp: DeviceParam.min
+        VB: DeviceParam.min
+      qualifiedName:
+        CSharp: DeviceParam.min
+        VB: DeviceParam.min
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: min
+        path: ''
+        startLine: 1705
+      syntax:
+        content:
+          CSharp: public object min
+          VB: Public min As Object
+        return:
+          type: System.Object
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.DeviceParam.max
+      commentId: F:Global.DeviceParam.max
+      language: CSharp
+      name:
+        CSharp: max
+        VB: max
+      nameWithType:
+        CSharp: DeviceParam.max
+        VB: DeviceParam.max
+      qualifiedName:
+        CSharp: DeviceParam.max
+        VB: DeviceParam.max
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: max
+        path: ''
+        startLine: 1706
+      syntax:
+        content:
+          CSharp: public object max
+          VB: Public max As Object
+        return:
+          type: System.Object
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.DeviceParam.value
+      commentId: F:Global.DeviceParam.value
+      language: CSharp
+      name:
+        CSharp: value
+        VB: value
+      nameWithType:
+        CSharp: DeviceParam.value
+        VB: DeviceParam.value
+      qualifiedName:
+        CSharp: DeviceParam.value
+        VB: DeviceParam.value
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: value
+        path: ''
+        startLine: 1707
+      syntax:
+        content:
+          CSharp: public object value
+          VB: Public value As Object
+        return:
+          type: System.Object
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.DeviceParam.target
+      commentId: F:Global.DeviceParam.target
+      language: CSharp
+      name:
+        CSharp: target
+        VB: target
+      nameWithType:
+        CSharp: DeviceParam.target
+        VB: DeviceParam.target
+      qualifiedName:
+        CSharp: DeviceParam.target
+        VB: DeviceParam.target
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: target
+        path: ''
+        startLine: 1708
+      syntax:
+        content:
+          CSharp: public object target
+          VB: Public target As Object
+        return:
+          type: System.Object
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.FluidData
+    commentId: T:Global.FluidData
+    language: CSharp
+    name:
+      CSharp: FluidData
+      VB: FluidData
+    nameWithType:
+      CSharp: FluidData
+      VB: FluidData
+    qualifiedName:
+      CSharp: FluidData
+      VB: FluidData
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: FluidData
+      path: ''
+      startLine: 1749
+    summary: "\nDeviceData\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class FluidData : DeviceData'
+        VB: >-
+          Public Class FluidData
+
+              Inherits DeviceData
+    inheritance:
+    - System.Object
+    - Global.DeviceData
+    inheritedMembers:
+    - Global.DeviceData.Id
+    - Global.DeviceData.TimeStamp
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.FluidData.Temperature
+      commentId: P:Global.FluidData.Temperature
+      language: CSharp
+      name:
+        CSharp: Temperature
+        VB: Temperature
+      nameWithType:
+        CSharp: FluidData.Temperature
+        VB: FluidData.Temperature
+      qualifiedName:
+        CSharp: FluidData.Temperature
+        VB: FluidData.Temperature
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Temperature
+        path: ''
+        startLine: 1757
+      syntax:
+        content:
+          CSharp: public float Temperature { get; set; }
+          VB: Public Property Temperature As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.FluidData.Temperature*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.Mass
+      commentId: P:Global.FluidData.Mass
+      language: CSharp
+      name:
+        CSharp: Mass
+        VB: Mass
+      nameWithType:
+        CSharp: FluidData.Mass
+        VB: FluidData.Mass
+      qualifiedName:
+        CSharp: FluidData.Mass
+        VB: FluidData.Mass
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Mass
+        path: ''
+        startLine: 1774
+      syntax:
+        content:
+          CSharp: public float Mass { get; set; }
+          VB: Public Property Mass As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.FluidData.Mass*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.FlowRate
+      commentId: P:Global.FluidData.FlowRate
+      language: CSharp
+      name:
+        CSharp: FlowRate
+        VB: FlowRate
+      nameWithType:
+        CSharp: FluidData.FlowRate
+        VB: FluidData.FlowRate
+      qualifiedName:
+        CSharp: FluidData.FlowRate
+        VB: FluidData.FlowRate
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: FlowRate
+        path: ''
+        startLine: 1789
+      syntax:
+        content:
+          CSharp: public float FlowRate { get; set; }
+          VB: Public Property FlowRate As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.FluidData.FlowRate*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.Q
+      commentId: P:Global.FluidData.Q
+      language: CSharp
+      name:
+        CSharp: Q
+        VB: Q
+      nameWithType:
+        CSharp: FluidData.Q
+        VB: FluidData.Q
+      qualifiedName:
+        CSharp: FluidData.Q
+        VB: FluidData.Q
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Q
+        path: ''
+        startLine: 1806
+      syntax:
+        content:
+          CSharp: public float Q { get; set; }
+          VB: Public Property Q As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.FluidData.Q*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.MaxCubicMeterPerHour
+      commentId: P:Global.FluidData.MaxCubicMeterPerHour
+      language: CSharp
+      name:
+        CSharp: MaxCubicMeterPerHour
+        VB: MaxCubicMeterPerHour
+      nameWithType:
+        CSharp: FluidData.MaxCubicMeterPerHour
+        VB: FluidData.MaxCubicMeterPerHour
+      qualifiedName:
+        CSharp: FluidData.MaxCubicMeterPerHour
+        VB: FluidData.MaxCubicMeterPerHour
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: MaxCubicMeterPerHour
+        path: ''
+        startLine: 1822
+      syntax:
+        content:
+          CSharp: public float MaxCubicMeterPerHour { get; set; }
+          VB: Public Property MaxCubicMeterPerHour As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.FluidData.MaxCubicMeterPerHour*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.PressureLoss
+      commentId: P:Global.FluidData.PressureLoss
+      language: CSharp
+      name:
+        CSharp: PressureLoss
+        VB: PressureLoss
+      nameWithType:
+        CSharp: FluidData.PressureLoss
+        VB: FluidData.PressureLoss
+      qualifiedName:
+        CSharp: FluidData.PressureLoss
+        VB: FluidData.PressureLoss
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: PressureLoss
+        path: ''
+        startLine: 1838
+      syntax:
+        content:
+          CSharp: public float PressureLoss { get; set; }
+          VB: Public Property PressureLoss As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.FluidData.PressureLoss*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.CircuitID
+      commentId: P:Global.FluidData.CircuitID
+      language: CSharp
+      name:
+        CSharp: CircuitID
+        VB: CircuitID
+      nameWithType:
+        CSharp: FluidData.CircuitID
+        VB: FluidData.CircuitID
+      qualifiedName:
+        CSharp: FluidData.CircuitID
+        VB: FluidData.CircuitID
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: CircuitID
+        path: ''
+        startLine: 1855
+      syntax:
+        content:
+          CSharp: public int CircuitID { get; set; }
+          VB: Public Property CircuitID As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Global.FluidData.CircuitID*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.FlowID
+      commentId: P:Global.FluidData.FlowID
+      language: CSharp
+      name:
+        CSharp: FlowID
+        VB: FlowID
+      nameWithType:
+        CSharp: FluidData.FlowID
+        VB: FluidData.FlowID
+      qualifiedName:
+        CSharp: FluidData.FlowID
+        VB: FluidData.FlowID
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: FlowID
+        path: ''
+        startLine: 1873
+      syntax:
+        content:
+          CSharp: public int FlowID { get; set; }
+          VB: Public Property FlowID As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Global.FluidData.FlowID*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.FluidData.#ctor(FluidData)
+      commentId: M:Global.FluidData.#ctor(FluidData)
+      language: CSharp
+      name:
+        CSharp: FluidData(FluidData)
+        VB: FluidData(FluidData)
+      nameWithType:
+        CSharp: FluidData.FluidData(FluidData)
+        VB: FluidData.FluidData(FluidData)
+      qualifiedName:
+        CSharp: FluidData.FluidData(FluidData)
+        VB: FluidData.FluidData(FluidData)
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: .ctor
+        path: ''
+        startLine: 1885
+      syntax:
+        content:
+          CSharp: public FluidData(FluidData fluidData)
+          VB: Public Sub New(fluidData As FluidData)
+        parameters:
+        - id: fluidData
+          type: Global.FluidData
+      overload: Global.FluidData.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.FluidData.#ctor
+      commentId: M:Global.FluidData.#ctor
+      language: CSharp
+      name:
+        CSharp: FluidData()
+        VB: FluidData()
+      nameWithType:
+        CSharp: FluidData.FluidData()
+        VB: FluidData.FluidData()
+      qualifiedName:
+        CSharp: FluidData.FluidData()
+        VB: FluidData.FluidData()
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: .ctor
+        path: ''
+        startLine: 1897
+      syntax:
+        content:
+          CSharp: public FluidData()
+          VB: Public Sub New
+      overload: Global.FluidData.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.HeaterBoilerData
+    commentId: T:Global.HeaterBoilerData
+    language: CSharp
+    name:
+      CSharp: HeaterBoilerData
+      VB: HeaterBoilerData
+    nameWithType:
+      CSharp: HeaterBoilerData
+      VB: HeaterBoilerData
+    qualifiedName:
+      CSharp: HeaterBoilerData
+      VB: HeaterBoilerData
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: HeaterBoilerData
+      path: ''
+      startLine: 1949
+    summary: "\nWaterSourceData\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class HeaterBoilerData : DeviceData'
+        VB: >-
+          Public Class HeaterBoilerData
+
+              Inherits DeviceData
+    inheritance:
+    - System.Object
+    - Global.DeviceData
+    inheritedMembers:
+    - Global.DeviceData.Id
+    - Global.DeviceData.TimeStamp
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+  - id: Global.WaterPipeData
+    commentId: T:Global.WaterPipeData
+    language: CSharp
+    name:
+      CSharp: WaterPipeData
+      VB: WaterPipeData
+    nameWithType:
+      CSharp: WaterPipeData
+      VB: WaterPipeData
+    qualifiedName:
+      CSharp: WaterPipeData
+      VB: WaterPipeData
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: WaterPipeData
+      path: ''
+      startLine: 1992
+    summary: "\nWaterSourceData\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class WaterPipeData : WaterSourceData'
+        VB: >-
+          Public Class WaterPipeData
+
+              Inherits WaterSourceData
+    inheritance:
+    - System.Object
+    - Global.DeviceData
+    - Global.WaterSourceData
+    inheritedMembers:
+    - Global.WaterSourceData.temperature
+    - Global.WaterSourceData.literPerMinute
+    - Global.WaterSourceData.bar
+    - Global.WaterSourceData.diameter
+    - Global.WaterSourceData.Temperature
+    - Global.WaterSourceData.LiterPerMinute
+    - Global.WaterSourceData.Diameter
+    - Global.DeviceData.Id
+    - Global.DeviceData.TimeStamp
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.WaterPipeData.flowRate
+      commentId: F:Global.WaterPipeData.flowRate
+      language: CSharp
+      name:
+        CSharp: flowRate
+        VB: flowRate
+      nameWithType:
+        CSharp: WaterPipeData.flowRate
+        VB: WaterPipeData.flowRate
+      qualifiedName:
+        CSharp: WaterPipeData.flowRate
+        VB: WaterPipeData.flowRate
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: flowRate
+        path: ''
+        startLine: 1998
+      summary: "\nflowRate\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float flowRate
+          VB: Public flowRate As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.WaterSourceData
+    commentId: T:Global.WaterSourceData
+    language: CSharp
+    name:
+      CSharp: WaterSourceData
+      VB: WaterSourceData
+    nameWithType:
+      CSharp: WaterSourceData
+      VB: WaterSourceData
+    qualifiedName:
+      CSharp: WaterSourceData
+      VB: WaterSourceData
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: WaterSourceData
+      path: ''
+      startLine: 2039
+    summary: "\nWaterSourceData\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class WaterSourceData : DeviceData'
+        VB: >-
+          Public Class WaterSourceData
+
+              Inherits DeviceData
+    inheritance:
+    - System.Object
+    - Global.DeviceData
+    inheritedMembers:
+    - Global.DeviceData.Id
+    - Global.DeviceData.TimeStamp
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.WaterSourceData.temperature
+      commentId: F:Global.WaterSourceData.temperature
+      language: CSharp
+      name:
+        CSharp: temperature
+        VB: temperature
+      nameWithType:
+        CSharp: WaterSourceData.temperature
+        VB: WaterSourceData.temperature
+      qualifiedName:
+        CSharp: WaterSourceData.temperature
+        VB: WaterSourceData.temperature
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: temperature
+        path: ''
+        startLine: 2043
+      syntax:
+        content:
+          CSharp: public float temperature
+          VB: Public temperature As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.WaterSourceData.literPerMinute
+      commentId: F:Global.WaterSourceData.literPerMinute
+      language: CSharp
+      name:
+        CSharp: literPerMinute
+        VB: literPerMinute
+      nameWithType:
+        CSharp: WaterSourceData.literPerMinute
+        VB: WaterSourceData.literPerMinute
+      qualifiedName:
+        CSharp: WaterSourceData.literPerMinute
+        VB: WaterSourceData.literPerMinute
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: literPerMinute
+        path: ''
+        startLine: 2044
+      syntax:
+        content:
+          CSharp: public float literPerMinute
+          VB: Public literPerMinute As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.WaterSourceData.bar
+      commentId: F:Global.WaterSourceData.bar
+      language: CSharp
+      name:
+        CSharp: bar
+        VB: bar
+      nameWithType:
+        CSharp: WaterSourceData.bar
+        VB: WaterSourceData.bar
+      qualifiedName:
+        CSharp: WaterSourceData.bar
+        VB: WaterSourceData.bar
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: bar
+        path: ''
+        startLine: 2045
+      syntax:
+        content:
+          CSharp: public float bar
+          VB: Public bar As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.WaterSourceData.diameter
+      commentId: F:Global.WaterSourceData.diameter
+      language: CSharp
+      name:
+        CSharp: diameter
+        VB: diameter
+      nameWithType:
+        CSharp: WaterSourceData.diameter
+        VB: WaterSourceData.diameter
+      qualifiedName:
+        CSharp: WaterSourceData.diameter
+        VB: WaterSourceData.diameter
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: diameter
+        path: ''
+        startLine: 2046
+      syntax:
+        content:
+          CSharp: public float diameter
+          VB: Public diameter As Single
+        return:
+          type: System.Single
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Global.WaterSourceData.Temperature
+      commentId: P:Global.WaterSourceData.Temperature
+      language: CSharp
+      name:
+        CSharp: Temperature
+        VB: Temperature
+      nameWithType:
+        CSharp: WaterSourceData.Temperature
+        VB: WaterSourceData.Temperature
+      qualifiedName:
+        CSharp: WaterSourceData.Temperature
+        VB: WaterSourceData.Temperature
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Temperature
+        path: ''
+        startLine: 2055
+      summary: "\nTemperature\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float Temperature { get; }
+          VB: Public ReadOnly Property Temperature As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.WaterSourceData.Temperature*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Global.WaterSourceData.LiterPerMinute
+      commentId: P:Global.WaterSourceData.LiterPerMinute
+      language: CSharp
+      name:
+        CSharp: LiterPerMinute
+        VB: LiterPerMinute
+      nameWithType:
+        CSharp: WaterSourceData.LiterPerMinute
+        VB: WaterSourceData.LiterPerMinute
+      qualifiedName:
+        CSharp: WaterSourceData.LiterPerMinute
+        VB: WaterSourceData.LiterPerMinute
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: LiterPerMinute
+        path: ''
+        startLine: 2066
+      summary: "\nLiterPerSecond\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float LiterPerMinute { get; }
+          VB: Public ReadOnly Property LiterPerMinute As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.WaterSourceData.LiterPerMinute*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Global.WaterSourceData.Diameter
+      commentId: P:Global.WaterSourceData.Diameter
+      language: CSharp
+      name:
+        CSharp: Diameter
+        VB: Diameter
+      nameWithType:
+        CSharp: WaterSourceData.Diameter
+        VB: WaterSourceData.Diameter
+      qualifiedName:
+        CSharp: WaterSourceData.Diameter
+        VB: WaterSourceData.Diameter
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Diameter
+        path: ''
+        startLine: 2074
+      syntax:
+        content:
+          CSharp: public float Diameter { get; }
+          VB: Public ReadOnly Property Diameter As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.WaterSourceData.Diameter*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+  - id: Global.Singleton`1
+    commentId: T:Global.Singleton`1
+    language: CSharp
+    name:
+      CSharp: Singleton<T>
+      VB: Singleton(Of T)
+    nameWithType:
+      CSharp: Singleton<T>
+      VB: Singleton(Of T)
+    qualifiedName:
+      CSharp: Singleton<T>
+      VB: Singleton(Of T)
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: Singleton
+      path: ''
+      startLine: 2097
+    summary: "\nSingleton \n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class Singleton<T> : MonoBehaviour where T : MonoBehaviour'
+        VB: >-
+          Public Class Singleton(Of T As MonoBehaviour)
+
+              Inherits MonoBehaviour
+      typeParameters:
+      - id: T
+        description: ''
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.Singleton`1.Instance
+      commentId: P:Global.Singleton`1.Instance
+      language: CSharp
+      name:
+        CSharp: Instance
+        VB: Instance
+      nameWithType:
+        CSharp: Singleton<T>.Instance
+        VB: Singleton(Of T).Instance
+      qualifiedName:
+        CSharp: Singleton<T>.Instance
+        VB: Singleton(Of T).Instance
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Instance
+        path: ''
+        startLine: 2103
+      syntax:
+        content:
+          CSharp: public static T Instance { get; }
+          VB: Public Shared ReadOnly Property Instance As T
+        parameters: []
+        return:
+          type: '{T}'
+      overload: Global.Singleton`1.Instance*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        - get
+        VB:
+        - Public
+        - Shared
+        - ReadOnly
+    - id: Global.Singleton`1.OnDestroy
+      commentId: M:Global.Singleton`1.OnDestroy
+      language: CSharp
+      name:
+        CSharp: OnDestroy()
+        VB: OnDestroy()
+      nameWithType:
+        CSharp: Singleton<T>.OnDestroy()
+        VB: Singleton(Of T).OnDestroy()
+      qualifiedName:
+        CSharp: Singleton<T>.OnDestroy()
+        VB: Singleton(Of T).OnDestroy()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: OnDestroy
+        path: ''
+        startLine: 2173
+      summary: "\nWhen Unity quits, it destroys objects in a random order.\nIn principle, a Singleton is only destroyed when application quits.\nIf any script calls Instance after it have been destroyed, \nit will create a buggy ghost object that will stay on the Editor scene\neven after stopping playing the Application. Really bad!\nSo, this was made to be sure we&apos;re not creating that buggy ghost object.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void OnDestroy()
+          VB: Public Sub OnDestroy
+      overload: Global.Singleton`1.OnDestroy*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.SimMath
+    commentId: T:Global.SimMath
+    language: CSharp
+    name:
+      CSharp: SimMath
+      VB: SimMath
+    nameWithType:
+      CSharp: SimMath
+      VB: SimMath
+    qualifiedName:
+      CSharp: SimMath
+      VB: SimMath
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: SimMath
+      path: ''
+      startLine: 6121
+    summary: "\nMain Class for Device Math. This class is responsible to use correct math class.\nCorrect Math Class name must set in Unity Editor. MathName find in inspector.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class SimMath : MonoBehaviour'
+        VB: >-
+          Public Class SimMath
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.SimMath.SetData(DeviceData,System.Int32,SimulationState)
+      commentId: M:Global.SimMath.SetData(DeviceData,System.Int32,SimulationState)
+      language: CSharp
+      name:
+        CSharp: SetData(DeviceData, Int32, SimulationState)
+        VB: SetData(DeviceData, Int32, SimulationState)
+      nameWithType:
+        CSharp: SimMath.SetData(DeviceData, Int32, SimulationState)
+        VB: SimMath.SetData(DeviceData, Int32, SimulationState)
+      qualifiedName:
+        CSharp: SimMath.SetData(DeviceData, System.Int32, SimulationState)
+        VB: SimMath.SetData(DeviceData, System.Int32, SimulationState)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: SetData
+        path: ''
+        startLine: 6202
+      summary: "\nSet Data to device for next simulation round\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SetData(DeviceData data, int slotID = 1, SimulationState aState = null)
+          VB: Public Sub SetData(data As DeviceData, slotID As Integer = 1, aState As SimulationState = Nothing)
+        parameters:
+        - id: data
+          type: Global.DeviceData
+          description: ''
+        - id: slotID
+          type: System.Int32
+          description: ''
+        - id: aState
+          type: Global.SimulationState
+      overload: Global.SimMath.SetData*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Global.SimulationSettings
+    commentId: T:Global.SimulationSettings
+    language: CSharp
+    name:
+      CSharp: SimulationSettings
+      VB: SimulationSettings
+    nameWithType:
+      CSharp: SimulationSettings
+      VB: SimulationSettings
+    qualifiedName:
+      CSharp: SimulationSettings
+      VB: SimulationSettings
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: Global
+    source:
+      id: SimulationSettings
+      path: ''
+      startLine: 6869
+    summary: "\nSimulationSettings\nThis class contains all settings for simulation (system)\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class SimulationSettings : MonoBehaviour'
+        VB: >-
+          Public Class SimulationSettings
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Global.SimulationSettings.TimeMultiplier
+      commentId: P:Global.SimulationSettings.TimeMultiplier
+      language: CSharp
+      name:
+        CSharp: TimeMultiplier
+        VB: TimeMultiplier
+      nameWithType:
+        CSharp: SimulationSettings.TimeMultiplier
+        VB: SimulationSettings.TimeMultiplier
+      qualifiedName:
+        CSharp: SimulationSettings.TimeMultiplier
+        VB: SimulationSettings.TimeMultiplier
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: TimeMultiplier
+        path: ''
+        startLine: 6895
+      summary: "\ndefault value is 1;\nexamples\nMultiplier value   GameTime    RealTime\n1                      1 s         1 s\n2                      1 s         2 s\n3                      1 s         3 s \n10                     1 s        10 s\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float TimeMultiplier { get; }
+          VB: Public ReadOnly Property TimeMultiplier As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.SimulationSettings.TimeMultiplier*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Global.SimulationSettings.SimulationInterval
+      commentId: P:Global.SimulationSettings.SimulationInterval
+      language: CSharp
+      name:
+        CSharp: SimulationInterval
+        VB: SimulationInterval
+      nameWithType:
+        CSharp: SimulationSettings.SimulationInterval
+        VB: SimulationSettings.SimulationInterval
+      qualifiedName:
+        CSharp: SimulationSettings.SimulationInterval
+        VB: SimulationSettings.SimulationInterval
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: SimulationInterval
+        path: ''
+        startLine: 6906
+      summary: "\nSimulation interval, Default 0.01f;\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public float SimulationInterval { get; }
+          VB: Public ReadOnly Property SimulationInterval As Single
+        parameters: []
+        return:
+          type: System.Single
+      overload: Global.SimulationSettings.SimulationInterval*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Global.SimulationSettings.Instance
+      commentId: P:Global.SimulationSettings.Instance
+      language: CSharp
+      name:
+        CSharp: Instance
+        VB: Instance
+      nameWithType:
+        CSharp: SimulationSettings.Instance
+        VB: SimulationSettings.Instance
+      qualifiedName:
+        CSharp: SimulationSettings.Instance
+        VB: SimulationSettings.Instance
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Instance
+        path: ''
+        startLine: 6917
+      summary: "\nInstance (Singleton)\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static SimulationSettings Instance { get; }
+          VB: Public Shared ReadOnly Property Instance As SimulationSettings
+        parameters: []
+        return:
+          type: Global.SimulationSettings
+      overload: Global.SimulationSettings.Instance*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        - get
+        VB:
+        - Public
+        - Shared
+        - ReadOnly
+    - id: Global.SimulationSettings.Circuits
+      commentId: P:Global.SimulationSettings.Circuits
+      language: CSharp
+      name:
+        CSharp: Circuits
+        VB: Circuits
+      nameWithType:
+        CSharp: SimulationSettings.Circuits
+        VB: SimulationSettings.Circuits
+      qualifiedName:
+        CSharp: SimulationSettings.Circuits
+        VB: SimulationSettings.Circuits
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Circuits
+        path: ''
+        startLine: 6931
+      summary: "\nList of System Circuit\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Hashtable Circuits { get; set; }
+          VB: Public Property Circuits As Hashtable
+        parameters: []
+        return:
+          type: Global.Hashtable
+      overload: Global.SimulationSettings.Circuits*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.SimulationSettings.Flows
+      commentId: P:Global.SimulationSettings.Flows
+      language: CSharp
+      name:
+        CSharp: Flows
+        VB: Flows
+      nameWithType:
+        CSharp: SimulationSettings.Flows
+        VB: SimulationSettings.Flows
+      qualifiedName:
+        CSharp: SimulationSettings.Flows
+        VB: SimulationSettings.Flows
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Flows
+        path: ''
+        startLine: 6942
+      summary: "\nList of System Flows\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Hashtable Flows { get; set; }
+          VB: Public Property Flows As Hashtable
+        parameters: []
+        return:
+          type: Global.Hashtable
+      overload: Global.SimulationSettings.Flows*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Global.SimulationSettings.Simulations
+      commentId: P:Global.SimulationSettings.Simulations
+      language: CSharp
+      name:
+        CSharp: Simulations
+        VB: Simulations
+      nameWithType:
+        CSharp: SimulationSettings.Simulations
+        VB: SimulationSettings.Simulations
+      qualifiedName:
+        CSharp: SimulationSettings.Simulations
+        VB: SimulationSettings.Simulations
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: Global
+      source:
+        id: Simulations
+        path: ''
+        startLine: 6953
+      summary: "\nList of Simulations\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Hashtable Simulations { get; set; }
+          VB: Public Property Simulations As Hashtable
+        parameters: []
+        return:
+          type: Global.Hashtable
+      overload: Global.SimulationSettings.Simulations*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+references:
+  Global.Light:
+    name:
+      CSharp:
+      - id: Global.Light
+        name: Light
+        nameWithType: Light
+        qualifiedName: Light
+        isExternal: true
+      VB:
+      - id: Global.Light
+        name: Light
+        nameWithType: Light
+        qualifiedName: Light
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Light'
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Single:
+    name:
+      CSharp:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+      VB:
+      - id: System.Single
+        name: Single
+        nameWithType: Single
+        qualifiedName: System.Single
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Single
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Global.LightFlickerEffect.Reset*:
+    name:
+      CSharp:
+      - id: Global.LightFlickerEffect.Reset*
+        name: Reset
+        nameWithType: LightFlickerEffect.Reset
+        qualifiedName: LightFlickerEffect.Reset
+      VB:
+      - id: Global.LightFlickerEffect.Reset*
+        name: Reset
+        nameWithType: LightFlickerEffect.Reset
+        qualifiedName: LightFlickerEffect.Reset
+    isDefinition: true
+    commentId: Overload:Global.LightFlickerEffect.Reset
+  Global.LightFlickerEffect:
+    name:
+      CSharp:
+      - id: Global.LightFlickerEffect
+        name: LightFlickerEffect
+        nameWithType: LightFlickerEffect
+        qualifiedName: LightFlickerEffect
+      VB:
+      - id: Global.LightFlickerEffect
+        name: LightFlickerEffect
+        nameWithType: LightFlickerEffect
+        qualifiedName: LightFlickerEffect
+    isDefinition: true
+    commentId: T:Global.LightFlickerEffect
+  Global.DeviceEditor:
+    name:
+      CSharp:
+      - id: Global.DeviceEditor
+        name: DeviceEditor
+        nameWithType: DeviceEditor
+        qualifiedName: DeviceEditor
+      VB:
+      - id: Global.DeviceEditor
+        name: DeviceEditor
+        nameWithType: DeviceEditor
+        qualifiedName: DeviceEditor
+    isDefinition: true
+    commentId: T:Global.DeviceEditor
+  Global.FlyCamera:
+    name:
+      CSharp:
+      - id: Global.FlyCamera
+        name: FlyCamera
+        nameWithType: FlyCamera
+        qualifiedName: FlyCamera
+      VB:
+      - id: Global.FlyCamera
+        name: FlyCamera
+        nameWithType: FlyCamera
+        qualifiedName: FlyCamera
+    isDefinition: true
+    commentId: T:Global.FlyCamera
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  Global.DeviceData.Id*:
+    name:
+      CSharp:
+      - id: Global.DeviceData.Id*
+        name: Id
+        nameWithType: DeviceData.Id
+        qualifiedName: DeviceData.Id
+      VB:
+      - id: Global.DeviceData.Id*
+        name: Id
+        nameWithType: DeviceData.Id
+        qualifiedName: DeviceData.Id
+    isDefinition: true
+    commentId: Overload:Global.DeviceData.Id
+  Global.DeviceData.TimeStamp*:
+    name:
+      CSharp:
+      - id: Global.DeviceData.TimeStamp*
+        name: TimeStamp
+        nameWithType: DeviceData.TimeStamp
+        qualifiedName: DeviceData.TimeStamp
+      VB:
+      - id: Global.DeviceData.TimeStamp*
+        name: TimeStamp
+        nameWithType: DeviceData.TimeStamp
+        qualifiedName: DeviceData.TimeStamp
+    isDefinition: true
+    commentId: Overload:Global.DeviceData.TimeStamp
+  Global.DeviceData.#ctor*:
+    name:
+      CSharp:
+      - id: Global.DeviceData.#ctor*
+        name: DeviceData
+        nameWithType: DeviceData.DeviceData
+        qualifiedName: DeviceData.DeviceData
+      VB:
+      - id: Global.DeviceData.#ctor*
+        name: DeviceData
+        nameWithType: DeviceData.DeviceData
+        qualifiedName: DeviceData.DeviceData
+    isDefinition: true
+    commentId: Overload:Global.DeviceData.#ctor
+  Global.DeviceData:
+    name:
+      CSharp:
+      - id: Global.DeviceData
+        name: DeviceData
+        nameWithType: DeviceData
+        qualifiedName: DeviceData
+      VB:
+      - id: Global.DeviceData
+        name: DeviceData
+        nameWithType: DeviceData
+        qualifiedName: DeviceData
+    isDefinition: true
+    commentId: T:Global.DeviceData
+  Global.DeviceParamType:
+    name:
+      CSharp:
+      - id: Global.DeviceParamType
+        name: DeviceParamType
+        nameWithType: DeviceParamType
+        qualifiedName: DeviceParamType
+      VB:
+      - id: Global.DeviceParamType
+        name: DeviceParamType
+        nameWithType: DeviceParamType
+        qualifiedName: DeviceParamType
+    isDefinition: true
+    commentId: T:Global.DeviceParamType
+  System.ValueType:
+    name:
+      CSharp:
+      - id: System.ValueType
+        name: ValueType
+        nameWithType: ValueType
+        qualifiedName: System.ValueType
+        isExternal: true
+      VB:
+      - id: System.ValueType
+        name: ValueType
+        nameWithType: ValueType
+        qualifiedName: System.ValueType
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.ValueType
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Global.DeviceParam:
+    name:
+      CSharp:
+      - id: Global.DeviceParam
+        name: DeviceParam
+        nameWithType: DeviceParam
+        qualifiedName: DeviceParam
+      VB:
+      - id: Global.DeviceParam
+        name: DeviceParam
+        nameWithType: DeviceParam
+        qualifiedName: DeviceParam
+    isDefinition: true
+    commentId: T:Global.DeviceParam
+  Global.DeviceData.Id:
+    name:
+      CSharp:
+      - id: Global.DeviceData.Id
+        name: Id
+        nameWithType: DeviceData.Id
+        qualifiedName: DeviceData.Id
+      VB:
+      - id: Global.DeviceData.Id
+        name: Id
+        nameWithType: DeviceData.Id
+        qualifiedName: DeviceData.Id
+    isDefinition: true
+    parent: Global.DeviceData
+    commentId: P:Global.DeviceData.Id
+  Global.DeviceData.TimeStamp:
+    name:
+      CSharp:
+      - id: Global.DeviceData.TimeStamp
+        name: TimeStamp
+        nameWithType: DeviceData.TimeStamp
+        qualifiedName: DeviceData.TimeStamp
+      VB:
+      - id: Global.DeviceData.TimeStamp
+        name: TimeStamp
+        nameWithType: DeviceData.TimeStamp
+        qualifiedName: DeviceData.TimeStamp
+    isDefinition: true
+    parent: Global.DeviceData
+    commentId: P:Global.DeviceData.TimeStamp
+  Global.FluidData.Temperature*:
+    name:
+      CSharp:
+      - id: Global.FluidData.Temperature*
+        name: Temperature
+        nameWithType: FluidData.Temperature
+        qualifiedName: FluidData.Temperature
+      VB:
+      - id: Global.FluidData.Temperature*
+        name: Temperature
+        nameWithType: FluidData.Temperature
+        qualifiedName: FluidData.Temperature
+    isDefinition: true
+    commentId: Overload:Global.FluidData.Temperature
+  Global.FluidData.Mass*:
+    name:
+      CSharp:
+      - id: Global.FluidData.Mass*
+        name: Mass
+        nameWithType: FluidData.Mass
+        qualifiedName: FluidData.Mass
+      VB:
+      - id: Global.FluidData.Mass*
+        name: Mass
+        nameWithType: FluidData.Mass
+        qualifiedName: FluidData.Mass
+    isDefinition: true
+    commentId: Overload:Global.FluidData.Mass
+  Global.FluidData.FlowRate*:
+    name:
+      CSharp:
+      - id: Global.FluidData.FlowRate*
+        name: FlowRate
+        nameWithType: FluidData.FlowRate
+        qualifiedName: FluidData.FlowRate
+      VB:
+      - id: Global.FluidData.FlowRate*
+        name: FlowRate
+        nameWithType: FluidData.FlowRate
+        qualifiedName: FluidData.FlowRate
+    isDefinition: true
+    commentId: Overload:Global.FluidData.FlowRate
+  Global.FluidData.Q*:
+    name:
+      CSharp:
+      - id: Global.FluidData.Q*
+        name: Q
+        nameWithType: FluidData.Q
+        qualifiedName: FluidData.Q
+      VB:
+      - id: Global.FluidData.Q*
+        name: Q
+        nameWithType: FluidData.Q
+        qualifiedName: FluidData.Q
+    isDefinition: true
+    commentId: Overload:Global.FluidData.Q
+  Global.FluidData.MaxCubicMeterPerHour*:
+    name:
+      CSharp:
+      - id: Global.FluidData.MaxCubicMeterPerHour*
+        name: MaxCubicMeterPerHour
+        nameWithType: FluidData.MaxCubicMeterPerHour
+        qualifiedName: FluidData.MaxCubicMeterPerHour
+      VB:
+      - id: Global.FluidData.MaxCubicMeterPerHour*
+        name: MaxCubicMeterPerHour
+        nameWithType: FluidData.MaxCubicMeterPerHour
+        qualifiedName: FluidData.MaxCubicMeterPerHour
+    isDefinition: true
+    commentId: Overload:Global.FluidData.MaxCubicMeterPerHour
+  Global.FluidData.PressureLoss*:
+    name:
+      CSharp:
+      - id: Global.FluidData.PressureLoss*
+        name: PressureLoss
+        nameWithType: FluidData.PressureLoss
+        qualifiedName: FluidData.PressureLoss
+      VB:
+      - id: Global.FluidData.PressureLoss*
+        name: PressureLoss
+        nameWithType: FluidData.PressureLoss
+        qualifiedName: FluidData.PressureLoss
+    isDefinition: true
+    commentId: Overload:Global.FluidData.PressureLoss
+  Global.FluidData.CircuitID*:
+    name:
+      CSharp:
+      - id: Global.FluidData.CircuitID*
+        name: CircuitID
+        nameWithType: FluidData.CircuitID
+        qualifiedName: FluidData.CircuitID
+      VB:
+      - id: Global.FluidData.CircuitID*
+        name: CircuitID
+        nameWithType: FluidData.CircuitID
+        qualifiedName: FluidData.CircuitID
+    isDefinition: true
+    commentId: Overload:Global.FluidData.CircuitID
+  Global.FluidData.FlowID*:
+    name:
+      CSharp:
+      - id: Global.FluidData.FlowID*
+        name: FlowID
+        nameWithType: FluidData.FlowID
+        qualifiedName: FluidData.FlowID
+      VB:
+      - id: Global.FluidData.FlowID*
+        name: FlowID
+        nameWithType: FluidData.FlowID
+        qualifiedName: FluidData.FlowID
+    isDefinition: true
+    commentId: Overload:Global.FluidData.FlowID
+  Global.FluidData:
+    name:
+      CSharp:
+      - id: Global.FluidData
+        name: FluidData
+        nameWithType: FluidData
+        qualifiedName: FluidData
+      VB:
+      - id: Global.FluidData
+        name: FluidData
+        nameWithType: FluidData
+        qualifiedName: FluidData
+    isDefinition: true
+    commentId: T:Global.FluidData
+  Global.FluidData.#ctor*:
+    name:
+      CSharp:
+      - id: Global.FluidData.#ctor*
+        name: FluidData
+        nameWithType: FluidData.FluidData
+        qualifiedName: FluidData.FluidData
+      VB:
+      - id: Global.FluidData.#ctor*
+        name: FluidData
+        nameWithType: FluidData.FluidData
+        qualifiedName: FluidData.FluidData
+    isDefinition: true
+    commentId: Overload:Global.FluidData.#ctor
+  Global.HeaterBoilerData:
+    name:
+      CSharp:
+      - id: Global.HeaterBoilerData
+        name: HeaterBoilerData
+        nameWithType: HeaterBoilerData
+        qualifiedName: HeaterBoilerData
+      VB:
+      - id: Global.HeaterBoilerData
+        name: HeaterBoilerData
+        nameWithType: HeaterBoilerData
+        qualifiedName: HeaterBoilerData
+    isDefinition: true
+    commentId: T:Global.HeaterBoilerData
+  Global.WaterSourceData:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData
+        name: WaterSourceData
+        nameWithType: WaterSourceData
+        qualifiedName: WaterSourceData
+      VB:
+      - id: Global.WaterSourceData
+        name: WaterSourceData
+        nameWithType: WaterSourceData
+        qualifiedName: WaterSourceData
+    isDefinition: true
+    commentId: T:Global.WaterSourceData
+  Global.WaterSourceData.temperature:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.temperature
+        name: temperature
+        nameWithType: WaterSourceData.temperature
+        qualifiedName: WaterSourceData.temperature
+      VB:
+      - id: Global.WaterSourceData.temperature
+        name: temperature
+        nameWithType: WaterSourceData.temperature
+        qualifiedName: WaterSourceData.temperature
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: F:Global.WaterSourceData.temperature
+  Global.WaterSourceData.literPerMinute:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.literPerMinute
+        name: literPerMinute
+        nameWithType: WaterSourceData.literPerMinute
+        qualifiedName: WaterSourceData.literPerMinute
+      VB:
+      - id: Global.WaterSourceData.literPerMinute
+        name: literPerMinute
+        nameWithType: WaterSourceData.literPerMinute
+        qualifiedName: WaterSourceData.literPerMinute
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: F:Global.WaterSourceData.literPerMinute
+  Global.WaterSourceData.bar:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.bar
+        name: bar
+        nameWithType: WaterSourceData.bar
+        qualifiedName: WaterSourceData.bar
+      VB:
+      - id: Global.WaterSourceData.bar
+        name: bar
+        nameWithType: WaterSourceData.bar
+        qualifiedName: WaterSourceData.bar
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: F:Global.WaterSourceData.bar
+  Global.WaterSourceData.diameter:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.diameter
+        name: diameter
+        nameWithType: WaterSourceData.diameter
+        qualifiedName: WaterSourceData.diameter
+      VB:
+      - id: Global.WaterSourceData.diameter
+        name: diameter
+        nameWithType: WaterSourceData.diameter
+        qualifiedName: WaterSourceData.diameter
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: F:Global.WaterSourceData.diameter
+  Global.WaterSourceData.Temperature:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.Temperature
+        name: Temperature
+        nameWithType: WaterSourceData.Temperature
+        qualifiedName: WaterSourceData.Temperature
+      VB:
+      - id: Global.WaterSourceData.Temperature
+        name: Temperature
+        nameWithType: WaterSourceData.Temperature
+        qualifiedName: WaterSourceData.Temperature
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: P:Global.WaterSourceData.Temperature
+  Global.WaterSourceData.LiterPerMinute:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.LiterPerMinute
+        name: LiterPerMinute
+        nameWithType: WaterSourceData.LiterPerMinute
+        qualifiedName: WaterSourceData.LiterPerMinute
+      VB:
+      - id: Global.WaterSourceData.LiterPerMinute
+        name: LiterPerMinute
+        nameWithType: WaterSourceData.LiterPerMinute
+        qualifiedName: WaterSourceData.LiterPerMinute
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: P:Global.WaterSourceData.LiterPerMinute
+  Global.WaterSourceData.Diameter:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.Diameter
+        name: Diameter
+        nameWithType: WaterSourceData.Diameter
+        qualifiedName: WaterSourceData.Diameter
+      VB:
+      - id: Global.WaterSourceData.Diameter
+        name: Diameter
+        nameWithType: WaterSourceData.Diameter
+        qualifiedName: WaterSourceData.Diameter
+    isDefinition: true
+    parent: Global.WaterSourceData
+    commentId: P:Global.WaterSourceData.Diameter
+  Global.WaterPipeData:
+    name:
+      CSharp:
+      - id: Global.WaterPipeData
+        name: WaterPipeData
+        nameWithType: WaterPipeData
+        qualifiedName: WaterPipeData
+      VB:
+      - id: Global.WaterPipeData
+        name: WaterPipeData
+        nameWithType: WaterPipeData
+        qualifiedName: WaterPipeData
+    isDefinition: true
+    commentId: T:Global.WaterPipeData
+  Global.WaterSourceData.Temperature*:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.Temperature*
+        name: Temperature
+        nameWithType: WaterSourceData.Temperature
+        qualifiedName: WaterSourceData.Temperature
+      VB:
+      - id: Global.WaterSourceData.Temperature*
+        name: Temperature
+        nameWithType: WaterSourceData.Temperature
+        qualifiedName: WaterSourceData.Temperature
+    isDefinition: true
+    commentId: Overload:Global.WaterSourceData.Temperature
+  Global.WaterSourceData.LiterPerMinute*:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.LiterPerMinute*
+        name: LiterPerMinute
+        nameWithType: WaterSourceData.LiterPerMinute
+        qualifiedName: WaterSourceData.LiterPerMinute
+      VB:
+      - id: Global.WaterSourceData.LiterPerMinute*
+        name: LiterPerMinute
+        nameWithType: WaterSourceData.LiterPerMinute
+        qualifiedName: WaterSourceData.LiterPerMinute
+    isDefinition: true
+    commentId: Overload:Global.WaterSourceData.LiterPerMinute
+  Global.WaterSourceData.Diameter*:
+    name:
+      CSharp:
+      - id: Global.WaterSourceData.Diameter*
+        name: Diameter
+        nameWithType: WaterSourceData.Diameter
+        qualifiedName: WaterSourceData.Diameter
+      VB:
+      - id: Global.WaterSourceData.Diameter*
+        name: Diameter
+        nameWithType: WaterSourceData.Diameter
+        qualifiedName: WaterSourceData.Diameter
+    isDefinition: true
+    commentId: Overload:Global.WaterSourceData.Diameter
+  T:
+    name:
+      CSharp:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      VB:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+    isDefinition: true
+    commentId: '!:T'
+  '{T}':
+    name:
+      CSharp:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      VB:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+    isDefinition: false
+    definition: T
+    commentId: '!:T'
+  Global.Singleton`1.Instance*:
+    name:
+      CSharp:
+      - id: Global.Singleton`1.Instance*
+        name: Instance
+        nameWithType: Singleton<T>.Instance
+        qualifiedName: Singleton<T>.Instance
+      VB:
+      - id: Global.Singleton`1.Instance*
+        name: Instance
+        nameWithType: Singleton(Of T).Instance
+        qualifiedName: Singleton(Of T).Instance
+    isDefinition: true
+    commentId: Overload:Global.Singleton`1.Instance
+  Global.Singleton`1.OnDestroy*:
+    name:
+      CSharp:
+      - id: Global.Singleton`1.OnDestroy*
+        name: OnDestroy
+        nameWithType: Singleton<T>.OnDestroy
+        qualifiedName: Singleton<T>.OnDestroy
+      VB:
+      - id: Global.Singleton`1.OnDestroy*
+        name: OnDestroy
+        nameWithType: Singleton(Of T).OnDestroy
+        qualifiedName: Singleton(Of T).OnDestroy
+    isDefinition: true
+    commentId: Overload:Global.Singleton`1.OnDestroy
+  Global.Singleton`1:
+    name:
+      CSharp:
+      - id: Global.Singleton`1
+        name: Singleton
+        nameWithType: Singleton
+        qualifiedName: Singleton
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Global.Singleton`1
+        name: Singleton
+        nameWithType: Singleton
+        qualifiedName: Singleton
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:Global.Singleton`1
+  Global.SimulationState:
+    name:
+      CSharp:
+      - id: Global.SimulationState
+        name: SimulationState
+        nameWithType: SimulationState
+        qualifiedName: SimulationState
+        isExternal: true
+      VB:
+      - id: Global.SimulationState
+        name: SimulationState
+        nameWithType: SimulationState
+        qualifiedName: SimulationState
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.SimulationState'
+  Global.SimMath.SetData*:
+    name:
+      CSharp:
+      - id: Global.SimMath.SetData*
+        name: SetData
+        nameWithType: SimMath.SetData
+        qualifiedName: SimMath.SetData
+      VB:
+      - id: Global.SimMath.SetData*
+        name: SetData
+        nameWithType: SimMath.SetData
+        qualifiedName: SimMath.SetData
+    isDefinition: true
+    commentId: Overload:Global.SimMath.SetData
+  Global.SimMath:
+    name:
+      CSharp:
+      - id: Global.SimMath
+        name: SimMath
+        nameWithType: SimMath
+        qualifiedName: SimMath
+      VB:
+      - id: Global.SimMath
+        name: SimMath
+        nameWithType: SimMath
+        qualifiedName: SimMath
+    isDefinition: true
+    commentId: T:Global.SimMath
+  Global.SimulationSettings.TimeMultiplier*:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings.TimeMultiplier*
+        name: TimeMultiplier
+        nameWithType: SimulationSettings.TimeMultiplier
+        qualifiedName: SimulationSettings.TimeMultiplier
+      VB:
+      - id: Global.SimulationSettings.TimeMultiplier*
+        name: TimeMultiplier
+        nameWithType: SimulationSettings.TimeMultiplier
+        qualifiedName: SimulationSettings.TimeMultiplier
+    isDefinition: true
+    commentId: Overload:Global.SimulationSettings.TimeMultiplier
+  Global.SimulationSettings.SimulationInterval*:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings.SimulationInterval*
+        name: SimulationInterval
+        nameWithType: SimulationSettings.SimulationInterval
+        qualifiedName: SimulationSettings.SimulationInterval
+      VB:
+      - id: Global.SimulationSettings.SimulationInterval*
+        name: SimulationInterval
+        nameWithType: SimulationSettings.SimulationInterval
+        qualifiedName: SimulationSettings.SimulationInterval
+    isDefinition: true
+    commentId: Overload:Global.SimulationSettings.SimulationInterval
+  Global.SimulationSettings:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings
+        name: SimulationSettings
+        nameWithType: SimulationSettings
+        qualifiedName: SimulationSettings
+      VB:
+      - id: Global.SimulationSettings
+        name: SimulationSettings
+        nameWithType: SimulationSettings
+        qualifiedName: SimulationSettings
+    isDefinition: true
+    commentId: T:Global.SimulationSettings
+  Global.SimulationSettings.Instance*:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings.Instance*
+        name: Instance
+        nameWithType: SimulationSettings.Instance
+        qualifiedName: SimulationSettings.Instance
+      VB:
+      - id: Global.SimulationSettings.Instance*
+        name: Instance
+        nameWithType: SimulationSettings.Instance
+        qualifiedName: SimulationSettings.Instance
+    isDefinition: true
+    commentId: Overload:Global.SimulationSettings.Instance
+  Global.Hashtable:
+    name:
+      CSharp:
+      - id: Global.Hashtable
+        name: Hashtable
+        nameWithType: Hashtable
+        qualifiedName: Hashtable
+        isExternal: true
+      VB:
+      - id: Global.Hashtable
+        name: Hashtable
+        nameWithType: Hashtable
+        qualifiedName: Hashtable
+        isExternal: true
+    isDefinition: true
+  Global.SimulationSettings.Circuits*:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings.Circuits*
+        name: Circuits
+        nameWithType: SimulationSettings.Circuits
+        qualifiedName: SimulationSettings.Circuits
+      VB:
+      - id: Global.SimulationSettings.Circuits*
+        name: Circuits
+        nameWithType: SimulationSettings.Circuits
+        qualifiedName: SimulationSettings.Circuits
+    isDefinition: true
+    commentId: Overload:Global.SimulationSettings.Circuits
+  Global.SimulationSettings.Flows*:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings.Flows*
+        name: Flows
+        nameWithType: SimulationSettings.Flows
+        qualifiedName: SimulationSettings.Flows
+      VB:
+      - id: Global.SimulationSettings.Flows*
+        name: Flows
+        nameWithType: SimulationSettings.Flows
+        qualifiedName: SimulationSettings.Flows
+    isDefinition: true
+    commentId: Overload:Global.SimulationSettings.Flows
+  Global.SimulationSettings.Simulations*:
+    name:
+      CSharp:
+      - id: Global.SimulationSettings.Simulations*
+        name: Simulations
+        nameWithType: SimulationSettings.Simulations
+        qualifiedName: SimulationSettings.Simulations
+      VB:
+      - id: Global.SimulationSettings.Simulations*
+        name: Simulations
+        nameWithType: SimulationSettings.Simulations
+        qualifiedName: SimulationSettings.Simulations
+    isDefinition: true
+    commentId: Overload:Global.SimulationSettings.Simulations
+  Global:
+    name:
+      CSharp:
+      - name: Global
+        nameWithType: Global
+        qualifiedName: Global
+      VB:
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+    isDefinition: true
