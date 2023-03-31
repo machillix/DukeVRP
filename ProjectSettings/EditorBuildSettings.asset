@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DukeScenes/Duke-Main.unity
+    guid: 2d8573d8723774a43ba4bbc2c25124f4
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cb871a7acee37874497a21739e762283, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ef6be68211cc4cd438802e29784e7083, type: 2}
