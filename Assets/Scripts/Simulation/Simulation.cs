@@ -99,6 +99,7 @@ namespace FrostBit
             {
                 OnPreSimulation();
             }
+            /*
             if (!systemSpeedTest)
             {
                 InvokeRepeating("DoSimulation", 0, SimulationSettings.Instance.SimulationInterval);
@@ -107,7 +108,7 @@ namespace FrostBit
             {
                 Debug.LogError("Waiting Test....");
                 Invoke("DoSpeedTest", 2);
-            }
+            }*/
         }
 
         /***************************************************************************
@@ -123,12 +124,21 @@ namespace FrostBit
         ///
         /// Triggers the OnRunSimulation event according to the selected interval
         /// </summary>
+        private void Update()
+        {
+            if (null != OnRunSimulation)
+            {
+                OnRunSimulation();
+            }
+        }
+
         private void DoSimulation()
         {
             if (null != OnRunSimulation)
             {
                 OnRunSimulation();
             }
+        
         }
 
         /// <summary>

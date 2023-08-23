@@ -111,7 +111,7 @@ public class VR_InfoElement : MonoBehaviour
             UpdatePosition(deviceInfo.transform);
 
             yield return new WaitForSeconds(0.025f);
-        }
+        }  
     }
 
 
@@ -131,7 +131,7 @@ public class VR_InfoElement : MonoBehaviour
         transform.LookAt(Lookat);
 
         //Change the text on the textmeshpro component
-        InfoText.text = Temp.ToString("0.00"+ "°C");
+        InfoText.text = Temp.ToString("0.00"+ "Â°C");
 
         //Check if controllers hit device, then compare distance to device between left and right controllers, closest is where we draw the gizmo
         if (LHand.Hit.transform == curdevice)

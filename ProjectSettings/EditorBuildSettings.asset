@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/DukeScenes/StartMenu.unity
+    guid: 0bf05103ca0ba6840be876d2d16d606e
+  - enabled: 1
     path: Assets/DukeScenes/Duke-Main.unity
     guid: 2d8573d8723774a43ba4bbc2c25124f4
   m_configObjects:

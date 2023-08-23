@@ -81,8 +81,8 @@ public class Info_BigBrown : MonoBehaviour
             }
         }
 
-        primaryText.text = "Primary\n" + TempPrim1.ToString("0.00" + "캜") + "\n" + TempPrim2.ToString("0.00" + "캜");
-
+        primaryText.text = "Primary\n" + TempPrim1.ToString("0.00" + "째C") + "\n" + TempPrim2.ToString("0.00" + "째C");
+      
 
         SlotIn[] slotsIn3 = SecIn.GetSlotsIn();
         foreach (SlotIn a in slotsIn3)
@@ -108,7 +108,7 @@ public class Info_BigBrown : MonoBehaviour
             }
         }
 
-        secondaryText.text = "Secondary\n" + TempSec1.ToString("0.00" + "캜") + "\n" + TempSec2.ToString("0.00" + "캜");
+        secondaryText.text = "Secondary\n" + TempSec1.ToString("0.00" + "째C") + "\n" + TempSec2.ToString("0.00" + "째C");
 
     }
 }

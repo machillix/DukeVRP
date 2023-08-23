@@ -55,6 +55,16 @@ public class HastyFadeScript : MonoBehaviour
 
     public GameObject[] hidehands;
 
+    private void Start()
+    {
+        foreach (GameObject hand in hidehands)
+        {
+            hand.SetActive(true);
+        }
+                    
+    }
+
+    /*
     private void Update()
     {
         foreach (VRInput inputti in inputit)
@@ -98,5 +108,5 @@ public class HastyFadeScript : MonoBehaviour
         }
 
     }
-
+*/
 }
