@@ -36,6 +36,12 @@ public class StartView_script : MonoBehaviour
         {
             showFade();
         }
+
+        if (UnityEngine.Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("asd");
+            Application.Quit();
+        }
         
     }
     
