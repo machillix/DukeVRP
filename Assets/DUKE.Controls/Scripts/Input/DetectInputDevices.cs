@@ -239,7 +239,7 @@ namespace DUKE.Controls {
 
                 /// Set the tracking mode origin to the desired Tracking Mode Origin.
                 List<XRInputSubsystem> subsystems = new List<XRInputSubsystem>();
-                SubsystemManager.GetInstances(subsystems);
+                SubsystemManager.GetSubsystems(subsystems);
 
                 foreach(XRInputSubsystem subsystem in subsystems) 
                 {
