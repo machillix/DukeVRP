@@ -106,10 +106,11 @@ public class FlyCamera : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftControl))
             speedFactor = slowFactor;
 
-
-        transform.position += transform.forward * (normalSpeed * speedFactor) * Input.GetAxis("Vertical") * Time.deltaTime;
-        transform.position += transform.right * (normalSpeed * speedFactor) * Input.GetAxis("Horizontal") * Time.deltaTime;
-
+    
+  
+        transform.position += transform.forward * (normalSpeed * speedFactor) * Input.GetAxis("Verticala") * Time.deltaTime;
+        transform.position += transform.right * (normalSpeed * speedFactor) * Input.GetAxis("Horizontala") * Time.deltaTime;
+      
         if (Input.GetKey(KeyCode.Q))
             transform.position += transform.up * ySpeed * Time.deltaTime;
         if (Input.GetKey(KeyCode.E))

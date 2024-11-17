@@ -115,7 +115,7 @@ public class VRClipBoard : MonoBehaviour
                 }
             }
 
-            temptext.text = tempIn.ToString("0.00" + "°C") + "\n" + "\n" + tempOut.ToString("0.00" + "°C");
+            temptext.text = tempIn.ToString("0.00" + "ï¿½C") + "\n" + "\n" + tempOut.ToString("0.00" + "ï¿½C");
 
             yield return new WaitForSeconds(0.05f);
         }
@@ -126,9 +126,9 @@ public class VRClipBoard : MonoBehaviour
     void FixedUpdate()
     {
 
-        Quaternion targetRotation = Quaternion.LookRotation(VRHead.transform.position - (transform.position + posOffset));
+        //Quaternion targetRotation = Quaternion.LookRotation(VRHead.transform.position - (transform.position + posOffset));
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation * rotOffset, rotSpeed * Time.deltaTime);
+        //transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation * rotOffset, rotSpeed * Time.deltaTime);
 
     }
     private void Update()   //debug
